@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'myFont';
+    src: url('/public/assets/fonts/Raglika.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'myFont2';
+    src: url('/public/assets/fonts/RobotoSlab-Light.ttf') format('truetype');
+}
