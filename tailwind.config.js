@@ -10,6 +10,10 @@ module.exports = {
       fontFamily: {
         'myFont': ['myFont', 'sans-serif'],
         'myFont2': ['myFont2', 'sans-serif'],
+        'myFont3': ['myFont3', 'sans-serif'],
+      },
+      backgroundImage: {
+        'achmadsuryas': "url('/public/assets/images/achmadsuryas.jpg')",
       },
     },
   },

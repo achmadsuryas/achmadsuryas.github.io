@@ -578,10 +578,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -634,16 +630,17 @@ video {
   overflow: hidden;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-t-3xl {
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 
 .border {
@@ -706,6 +703,10 @@ video {
 
 .font-myFont2 {
   font-family: myFont2, sans-serif;
+}
+
+.font-myFont3 {
+  font-family: myFont3, sans-serif;
 }
 
 .text-3xl {
@@ -802,6 +803,12 @@ video {
   font-family: 'myFont2';
 
   src: url('/public/assets/fonts/RobotoSlab-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'myFont3';
+
+  src: url('/public/assets/fonts/GeistMono-UltraLight-BF65694d060e577.otf') format('truetype');
 }
 
 .hover\:scale-110:hover {

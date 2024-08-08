@@ -11,3 +11,8 @@
     font-family: 'myFont2';
     src: url('/public/assets/fonts/RobotoSlab-Light.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'myFont3';
+    src: url('/public/assets/fonts/GeistMono-UltraLight-BF65694d060e577.otf') format('truetype');
+}
